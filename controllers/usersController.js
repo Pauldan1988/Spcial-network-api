@@ -1,2 +1,5 @@
 const { Schema, model } = require("mongoose")
-const assignmentSchema = require("")
+
+const headCount = async () =>
+    User.aggregate().count("userCount")
+    .then((numberOfUsers) => numberOfUsers)

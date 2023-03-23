@@ -2,5 +2,23 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.9.2"
-  }
+  },
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "A social network API",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/Pauldan1988\","
+  },
+ 
+  "author": "Paul D'Angelo Jr",
+  "license": "No"
 }
